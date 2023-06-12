@@ -38,7 +38,3 @@ Go
 Select p.id, fullname, age, sex, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, ca, typical_angina_pain, atypical_angina_pain, non_anginal_pain, asymptomatic_pain, thalassemia_normal, thalassemia_fixed, thalassemia_reversable, upsloping_st, flat_st, downsloping_st, heart_disease
 From Patient p, MedicalRecords mr 
 Where mr.id = p.id
-
-select * from patient
-insert into Patient Values('123', 'Vu Khanh Nam')
-insert into MedicalRecords Values('123', 63, 1, 145, 233, 1, 0, 150, 0, 2.3, 2, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1)
